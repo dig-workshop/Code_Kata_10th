@@ -1,11 +1,11 @@
 {
-  "name": "code_kata_7th",
+  "name": "code_kata_10th",
   "version": "1.0.0",
   "description": "ジャンケンを題材に、Code Kataにトライしてみましょう",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "author": "",
   "license": "ISC",

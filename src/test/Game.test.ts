@@ -9,4 +9,12 @@ describe('test', () => {
 
     expect(result).toEqual('P1_WINS')
   })
+
+  test("player1とplayer2がグー(ROCK)のとき引き分ける", () => {
+    const player1 = 'ROCK'
+    const player2 = 'ROCK'
+    const result = gamePlay(player1, player2)
+
+    expect(result).toEqual('DRAW')
+  })
 });

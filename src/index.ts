@@ -1,7 +1,6 @@
-import {Game} from './main/TypeScript/Game';
+import {gamePlay} from './main/Game';
 
-const game = new Game();
-const result = game.play();
+const result = gamePlay('ROCK','SCISSORS');
 
 console.log(`結果: ${result}`);
 
